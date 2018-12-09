@@ -18,12 +18,12 @@ connection {
 #background {
   image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu.jpg);
   layer: background;
-  shape: rect;
-  size: 500;
+  shape: rectangle;
+  width: 1000;
+  height: 572;
   color: transparent;
+  border-width: 0.5;
   image-size: contain;
   image-resolution: original;
   label-visibility: none;
 }
-
-
