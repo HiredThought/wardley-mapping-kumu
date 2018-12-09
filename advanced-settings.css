@@ -3,6 +3,7 @@
 // Basic settings
 @settings {
   template: system;
+  background-color: #fff;
 }
 
 connection {
