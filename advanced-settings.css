@@ -25,6 +25,14 @@ element.future {
   border-color: #cc2314;
 }
 
+element.inertia {
+  shape: rectangle;
+  color: #000;
+  height: 36;
+  width: 8;
+  label-visibility: hidden;
+}
+
 connection {
   arrow-visibility: hidden;
   path-opacity: 0.85;
