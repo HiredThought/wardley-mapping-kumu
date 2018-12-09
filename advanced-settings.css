@@ -6,6 +6,11 @@
   background-color: #fff;
 }
 
+element {
+  border-width: 2;
+  border-color: #000;
+  color: #fff;
+}
 connection {
   curvature: 0;
 }
