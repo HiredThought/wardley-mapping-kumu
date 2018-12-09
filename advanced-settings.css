@@ -12,6 +12,15 @@ element {
   color: #fff;
 }
 
+element.annotation {
+  color: transparent;
+  border-width: 0
+  font-color: #cc2314;
+  font-weight: bold;
+  font-size: 28;
+  text-align: center;
+}
+
 element.future {
   border-color: #cc2314;
 }
