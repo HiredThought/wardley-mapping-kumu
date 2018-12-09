@@ -11,12 +11,20 @@ element {
   border-color: #000;
   color: #fff;
 }
+
+element.future {
+  border-color: #cc2314;
+}
+
 connection {
   arrow-visibility: 0;
   path-opacity: 0.85;
   curvature: 0;
   size: 2;
 }
+
+connection.future {
+  color: #cc2314;
 }
 
 #background {
