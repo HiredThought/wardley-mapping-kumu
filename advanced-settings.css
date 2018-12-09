@@ -12,7 +12,11 @@ element {
   color: #fff;
 }
 connection {
+  arrow-visibility: 0;
+  path-opacity: 0.85;
   curvature: 0;
+  size: 2;
+}
 }
 
 #background {
