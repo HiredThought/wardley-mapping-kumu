@@ -4,12 +4,16 @@
 @settings {
   template: system;
   background-color: #fff;
-}
-
-element {
-  border-width: 2;
-  border-color: #000;
-  color: #fff;
+  
+  // It's apparently more efficient to put these settings here instead of in element or connection blocks below.
+  element-border-width: 2;
+  element-border-color: #000;
+  element-color: #fff;
+  
+  connection-arrow-visibility: hidden;
+  connection-path-opacity: 0.85;
+  connection-curvature: 0;
+  connection-size: 2;
 }
 
 element.annotation {
@@ -31,13 +35,6 @@ element.inertia {
   height: 36;
   width: 8;
   label-visibility: hidden;
-}
-
-connection {
-  arrow-visibility: hidden;
-  path-opacity: 0.85;
-  curvature: 0;
-  size: 2;
 }
 
 connection.future {
