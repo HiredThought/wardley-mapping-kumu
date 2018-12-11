@@ -41,7 +41,7 @@ connection.future {
   color: #cc2314;
 }
 
-connection.move {
+connection.change {
   color: #cc2314;
   arrow-visibility: visible;
   arrow-min-width: 12;
