@@ -49,7 +49,12 @@ connection.change {
 }
 
 #background {
+  // Use background image with annotations
   image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu.jpg);
+  
+  // Use minimal background image
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Minimal.jpg);
+  
   layer: background;
   shape: rectangle;
   width: 1000;
