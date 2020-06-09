@@ -49,12 +49,23 @@ connection.change {
 }
 
 #background {
-  // Use background image with annotations
+  // Use a default template
   image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Activities.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Practices.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Data.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Knowledge.jpg);
   
-  // Use minimal background image
+  // Use a minimal template
   // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Minimal.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Minimal_Activities.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Minimal_Practices.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Minimal_Data.jpg);
+  // image-url: url(https://raw.githubusercontent.com/bemosior/wardley-mapping-kumu/master/Wardley_Mapping_Kumu_Minimal_Knowledge.jpg);
   
+
+
+
   layer: background;
   shape: rectangle;
   width: 1000;
